@@ -1,0 +1,633 @@
+/* .huge
+{
+    margin-left: 130px !important;
+}
+
+.forhuge
+{
+    margin-left: 0;
+} */
+
+.profit_cards
+{
+    display: flex;
+    justify-content: center;
+}
+
+.home_series2
+{
+    margin: 30px 0;
+}
+
+.un_states_wrap
+{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.un_kingdom_wrap
+{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.vietnam_wrap
+{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.germany_wrap
+{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.france_wrap
+{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.brazil_wrap
+{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.un_states_wrap .ant-progress-line, .un_kingdom_wrap .ant-progress-line, .vietnam_wrap .ant-progress-line,
+.germany_wrap .ant-progress-line, .france_wrap .ant-progress-line, .brazil_wrap .ant-progress-line
+{
+    width: 360px;
+}
+
+.un_states_wrap .ant-progress-bg
+{
+    background-color: rgb(230, 100, 0);
+}
+
+.vietnam_wrap .ant-progress-bg
+{
+    background-color: rgb(0, 201, 0);
+}
+
+.germany_wrap .ant-progress-bg
+{
+    background-color: blueviolet;
+}
+
+.france_wrap .ant-progress-bg
+{
+    background-color: rgb(0, 217, 255);
+}
+
+.brazil_wrap .ant-progress-bg
+{
+    background-color: rgb(255, 192, 75);
+}
+
+.flag_info_place
+{
+    padding-left: 20px;
+}
+
+.flag_name_place
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flag_number
+{
+    color: rgb(143, 143, 143);
+}
+
+@media (min-width: 300px) and (max-width: 767.98px) {
+    .ant-progress-line
+    {
+      width: 200px !important;
+    }
+
+    .flag
+    {
+        width: 40px !important;
+    }
+
+    .un_states_wrap
+    {
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    /* .statis_table_body1, .statis_table_body2, .statis_table_body3, .statis_table_body4, .statis_table_body5,
+    .tables_title_place
+    {
+        display: block !important;
+    } */
+
+    .seria3_charges_place
+    {
+        display: block !important;
+    }
+
+    .charges_box1, .charges_box2, .charges_box3
+    {
+        padding: 30px 0px !important;
+
+    }
+}
+
+.statis_table
+{
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 30px;
+    padding: 25px 20px;
+}
+
+.statis_table2
+{
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 30px;
+    padding: 25px 20px;
+}
+
+.all_home_bottom_bodies
+{
+    margin: 0 auto;
+}
+
+.tables_title_place
+{
+    display: flex;
+    padding-top: 25px;
+    padding-left: 8px;
+}
+
+.table_tit
+{
+    margin-right: 70px;
+    color: rgb(128, 128, 128);
+}
+
+.table_pro
+{
+    margin-right: 50px;
+    color: rgb(128, 128, 128);
+}
+
+.table_amo
+{
+    margin-right: 15px;
+    color: rgb(128, 128, 128);
+}
+
+.table_ven
+{
+    margin-right: 50px;
+    color: rgb(128, 128, 128);
+}
+
+.table_sta
+{
+    margin-right: 20px;
+    color: rgb(128, 128, 128);
+}
+
+.table_rat
+{
+    color: rgb(128, 128, 128);
+}
+
+.bottom_txt
+{
+    font-size: x-small;
+    color: slategray;
+}
+
+.statis_table_body2 .statuss_place
+{
+    background-color: rgb(255, 216, 216);
+    color: red;
+}
+
+.statis_table_body4 .statuss_place
+{
+    background-color: rgb(255, 216, 216);
+    color: red;
+}
+
+.status_tables_wrap
+{
+    display: flex;
+    justify-content: center;
+}
+
+.seria3_header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.statis_table
+{
+    margin-right: 10px;
+}
+
+.statis_table_body1
+{
+    display: flex;
+    margin: 30px 0;
+}
+
+.statis_table_body2
+{
+    display: flex;
+    margin: 30px 0;
+}
+
+.statis_table_body3
+{
+    display: flex;
+    margin: 30px 0;
+}
+
+.statis_table_body4
+{
+    display: flex;
+    margin: 30px 0;
+}
+
+.statis_table_body5
+{
+    display: flex;
+    margin: 30px 0;
+}
+
+.statis_table_body3 .customer_table
+{
+    margin-right: 23px;
+}
+
+.statis_table_body3 .amount_table
+{
+    margin-right: 20px;
+}
+
+.statis_table_body3 .vendor_table
+{
+    margin-right: 50px;
+}
+
+.statis_table_body3 .product_table
+{
+    margin-right: 23px;
+}
+
+.statis_table_body3 .statuss_table
+{
+    margin-right: 23px;
+}
+
+.statis_table_body2 .product_table
+{
+    margin-right: 16px;
+}
+
+.statis_table_body2 .vendor_table
+{
+    margin-right: 28px;
+}
+
+.statis_table_body4 .customer_table
+{
+    margin-right: 16px;
+}
+
+.statis_table_body4 .product_table
+{
+    margin-right: 17px;
+}
+
+.statis_table_body4 .vendor_table
+{
+    margin-right: 30px;
+}
+
+.statis_table_body5 .customer_table
+{
+    margin-right: 16px;
+}
+
+/* .product_name
+{
+    font-size: small;
+}
+
+.amounts
+{
+    color: rgb(0, 177, 0);
+}
+
+/* .vendor_name
+{
+    font-size: small;
+} */
+
+.statuss
+{
+    font-size: small;
+}
+
+.rate_name
+{
+    font-size: small;
+}
+
+.rate_extra
+{
+    color: rgb(143, 143, 143);
+}
+
+.statuss_place
+{
+    background-color: rgb(223, 255, 175);
+    border-radius: 5px;
+    color: green;
+}
+
+.customers_avatar_place
+{
+    padding-right: 5px;
+}
+
+.customer_avatar
+{
+    width: 30px;
+    border-radius: 50%;
+}
+
+/* .cutomer_name
+{
+    font-size: small;
+} */
+
+.statuss_place
+{
+    font-size: x-small;
+    color: green;
+    padding: 2px 3px;
+    border-radius: 10px;
+}
+
+.customer_table
+{
+    display: flex;
+    align-items: baseline;
+    margin-right: 20px;
+}
+
+.product_table
+{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+.amount_table
+{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+.vendor_table
+{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+.statuss_table
+{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.rate_table
+{
+    display: flex;
+    align-items: flex-end;
+}
+
+.three_dot
+{
+    color: blue !important;
+    cursor: pointer !important;
+}
+
+.primary_circle
+{
+    cursor: pointer;
+}
+
+.primary_circle .ant-progress-circle-path
+{
+    stroke: blue !important;
+}
+
+.yellow_circle
+{
+    cursor: pointer;
+}
+
+.yellow_circle .ant-progress-circle-path
+{
+    stroke: #ffc568 !important;
+}
+
+.green_circle
+{
+    cursor: pointer;
+}
+
+.green_circle .ant-progress-circle-path
+{
+    stroke: rgb(0, 171, 0) !important;
+}
+
+.yellow_circle .ant-progress-text
+{
+    color: #ffc568 !important;
+}
+
+.seria3_handbag
+{
+    color: blue !important;
+}
+
+.seria3_shoot
+{
+    color: green !important;
+}
+
+.seria3_charges_place
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.charges_box1
+{
+    background-color: #e9f0fd;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 90px;
+    margin: 0 30px;
+}
+
+.charges_box2
+{
+    background-color: #fef7ec;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 90px;
+    margin: 0 30px;
+}
+
+.charges_box3
+{
+    background-color: #edf5ec;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 90px;
+    margin: 0 30px;
+}
+
+.charges_percent
+{
+    margin-top: 15px;
+}
+
+.charge_small_txt
+{
+    color: silver;
+    font-size: x-small;
+}
+
+.first_chart_wrapper
+{
+    display: flex;
+    justify-content: center;
+}
+
+.charge_wrapper
+{
+    display: flex;
+    justify-content: center;
+}
+
+.kolmd10
+{
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 30px;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+}
+
+.section2_header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ant-segmented
+{
+    border-radius: 20px;
+    background-color: #fef7ec;
+}
+
+.ant-segmented-item
+{
+    border-radius: 20px !important;
+}
+
+.first_chart
+{
+    margin-top: 40px;
+}
+
+.canvasjs-chart-toolbar
+{
+    display: none;
+}
+
+.canvasjs-chart-credit
+{
+    display: none;
+}
+
+.bir
+{
+    display: flex;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 30px;
+    padding: 15px 25px;
+    margin: 0 30px;
+}
+
+.to_top
+{
+    color: rgb(0, 167, 0);
+}
+
+.income
+{
+    font-size: larger;
+}
+
+.iconka_wrap
+{
+    margin-right: 15px;
+    align-self: center;
+}
+
+.iconka_body
+{
+    border-radius: 50%;
+    background-color: #edf5ec;
+    padding: 10px;
+}
+
+.percent_of_profit
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale_increases
+{
+    color: silver;
+    font-size: x-small;
+}
+
+.percent
+{
+    font-size: x-small;
+    color: rgb(2, 180, 2);
+    padding-left: 20px;
+}
+
+@media (min-width: 300px) and (max-width: 767.98px) {
+    .bir
+    {
+      margin: 10px 0;
+    }
+}

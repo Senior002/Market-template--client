@@ -1,0 +1,220 @@
+/* section 1: boxes */
+.second_seria1
+{
+    display: flex;
+    justify-content: center;
+}
+
+.second_seria2
+{
+    margin: 30px 0;
+}
+
+.second_seria2_wrapper
+{
+    display: flex;
+    justify-content: center;
+}
+
+.second_seria3_wrapper
+{
+    display: flex;
+    justify-content: center;
+}
+
+.second_seria3_table_wrapper
+{
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.rs-table-cell
+{
+    border: none !important;
+}
+
+.kolmd8
+{
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 20px;
+    padding: 20px 10px;
+    margin-right: 15px;
+}
+
+.kolmd3
+{
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.semicircle-percent-value
+{
+    font-weight: 700;
+    font-size: large;
+}
+
+.anth
+{
+    color: silver;
+}
+
+.login_semi
+{
+    color: #ffb52e;
+    top: -80px;
+    position: relative;
+    cursor: pointer;
+}
+
+.header_left
+{
+    text-align: start;
+}
+
+@media (min-width: 991.98px) {
+    .semicircle-percent-value
+    {
+        font-weight: 700;
+        font-size: x-large;
+        top: 80px;
+    }
+    .semi_target
+    {
+        position: relative;
+        top: -35px;
+        font-size: small;
+    }
+}
+
+@media (max-width: 767px) {
+    .semi_txt
+    {
+        width: 250px !important;
+        font-size: small;
+    }
+}
+
+.semi_txt
+{
+    width: 300px;
+    color: rgb(148, 148, 148);
+    margin: 0 auto;
+}
+
+.seria2_header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.box_border
+{
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.second_box_header
+{
+    display: flex;
+    align-items: flex-end;
+}
+
+.box_header_txt
+{
+    color: rgb(138, 138, 138);
+    font-size: small;
+    padding-left: 10px;
+}
+
+.box_price
+{
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.box_percent
+{
+    padding-left: 10px;
+}
+
+.box_smallest_txt
+{
+    color: rgb(162, 162, 162);
+    font-size: x-small;
+}
+
+.box_percent_place
+{
+    display: flex;
+    
+}
+
+.chevron_wrap
+{
+    display: flex;
+    align-items: center;
+    background-color: #edf5ec;
+    border-radius: 8px;
+    padding: 0 5px;
+}
+
+.chevron
+{
+    color: green;
+}
+
+.box_percent
+{
+    color: green;
+    font-size: small;
+}
+
+.box_end
+{
+    display: flex;
+    justify-content: center;
+}
+
+.box_chart_place
+{
+    height: 120px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px -55px 5px -5px rgba(79, 173, 245, 0.03) inset;
+}
+
+/* .apexcharts-bar-series
+{
+    padding: 50px !important;
+} */
+
+/* #SvgjsG2327
+{
+    display: flex !important;
+    justify-content: center !important;
+} */
+
+.box_chart
+{
+    width: 250px !important;
+    height: 80px !important;
+}
+
+.MuiLineElement-root
+{
+    stroke: rgb(60, 60, 255) !important;
+    stroke-width: 4 !important;
+    /* box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0) !important; */
+}
+
+.MuiMarkElement-root
+{
+    display: none;
+}

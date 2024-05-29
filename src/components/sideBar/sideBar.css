@@ -1,0 +1,144 @@
+.sidebar_logo_place
+{
+    padding: 20px 20px 50px 20px;
+}
+
+.sidebar_logo
+{
+    position: absolute;
+    width: 20px;
+    left: 18px;
+    cursor: pointer;
+}
+
+.apps_place
+{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.apps_icon
+{
+    color: #649aff;
+    cursor: pointer;
+}
+
+.chart_place1
+{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.chart1_icon
+{
+    color: #649aff;
+    cursor: pointer;
+}
+
+.wallet_place
+{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.wallet_icon
+{
+    color: #649aff;
+    cursor: pointer;
+}
+
+.handlebag_place
+{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.handlebag_icon
+{
+    color: #649aff;
+    cursor: pointer;
+}
+
+.bagsimple_place
+{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.bag_icon
+{
+    color: #649aff;
+    cursor: pointer;
+}
+
+.chart_place2
+{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.chart2_icon
+{
+    color: #649aff;
+    cursor: pointer;
+}
+
+.document_place
+{
+    padding: 10px 20px 60px 20px;
+    text-align: center;
+}
+
+.document_icon
+{
+    color: #649aff;
+    cursor: pointer;
+}
+
+.profile_place
+{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.profile_icon
+{
+    color: #649aff;
+    cursor: pointer;
+}
+
+.envelope_place
+{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.envelope_icon
+{
+    color: #649aff;
+    cursor: pointer;
+}
+
+.folder_place
+{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.folder_icon
+{
+    color: #649aff;
+    cursor: pointer;
+}
+
+.settings_place
+{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.settings_icon
+{
+    color: #649aff;
+    cursor: pointer;
+}

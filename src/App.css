@@ -1,0 +1,54 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row
+{
+  margin-right: 0;
+}
+
+/* .huge
+{
+  margin-left: 130px !important;
+} */
+
+.forhuge
+{
+  margin-left: 0;
+}
+
+/* colors:
+blue - #e9f0fd
+yellow - #fef7ec
+green - #edf5ec */
+
+.side_bar_place
+{
+    left: 0;
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    background-color: #e9f0fd;
+}
+
+.general
+{
+  /* padding-left: 100px; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) and (max-width: 767.98px) {
+  .general
+  {
+    padding-left: 75px;
+  }
+  .bir
+  {
+    margin: 10px 0;
+  }
+}
